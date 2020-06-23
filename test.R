@@ -20,3 +20,5 @@ lines(x[ix], myPredict[ix], col=2, lwd=2 )
 # I add the features of the model to the plot
 coeff <- round(model$coefficients , 2)
 text(3, -70 , paste("Model : ",coeff[1] , " + " , coeff[2] , "*x"  , "+" , coeff[3] , "*x^2" , "+" , coeff[4] , "*x^3" , "\n\n" , "P-value adjusted = ",round(summary(model)$adj.r.squared,2)))
+
+print("hello world")
