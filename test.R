@@ -1,6 +1,8 @@
 x <- runif(300,  min=-10, max=10)
 y <- 0.35*x^3 - 0.45 * x^2 - x + 10 + rnorm(length(x),0,8)
 
+#a silly comment
+
 # plot of x and y :
 plot(x,y,col=rgb(0.2,0.2,0.8,0.6),pch=16 , cex=1.3)
 
