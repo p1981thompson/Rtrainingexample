@@ -1,5 +1,5 @@
 x <- runif(300,  min=-10, max=10) 
-y <- 0.1*x^3 - 0.5 * x^2 - x + 10 + rnorm(length(x),0,8) 
+y <- 0.3*x^3 - 0.25 * x^2 - x + 10 + rnorm(length(x),0,8) 
  
 # plot of x and y :
 plot(x,y,col=rgb(0.2,0.2,0.8,0.6),pch=16 , cex=1.3) 
