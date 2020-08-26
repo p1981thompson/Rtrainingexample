@@ -1,3 +1,5 @@
+library(stats)
+
 x <- runif(300,  min=-10, max=10)
 y <- 0.35*x^3 - 0.45 * x^2 - x + 10 + rnorm(length(x),0,8)
 
